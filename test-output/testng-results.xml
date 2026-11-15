@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-11-07T23:36:45 IST" name="Suite" finished-at="2026-11-07T23:37:26 IST" duration-ms="40871">
+    <groups>
+    </groups>
+    <test started-at="2026-11-07T23:36:45 IST" name="ChromeTest" finished-at="2026-11-07T23:36:58 IST" duration-ms="13184">
+      <class name="testClasses.LoginDataDriven">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:testClasses.LoginDataDriven@1922e6d]" started-at="2026-11-07T23:36:53 IST" name="browserSetup" finished-at="2026-11-07T23:36:53 IST" duration-ms="684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginDataDriven@1922e6d]" started-at="2026-11-07T23:36:53 IST" name="urlLaunch" finished-at="2026-11-07T23:36:54 IST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="loginValidation()[pri:0, instance:testClasses.LoginDataDriven@1922e6d]" started-at="2026-11-07T23:36:54 IST" name="loginValidation" finished-at="2026-11-07T23:36:58 IST" duration-ms="4035" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Validation failed at Excel Row: 4 expected [Username or Password cannot be Empty] but found [Your username is invalid!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Validation failed at Excel Row: 4 expected [Username or Password cannot be Empty] but found [Your username is invalid!]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testClasses.LoginDataDriven.loginValidation(LoginDataDriven.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.LoginDataDriven@1922e6d]" started-at="2026-11-07T23:36:58 IST" name="teardown" finished-at="2026-11-07T23:36:58 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testClasses.LoginDataDriven -->
+      <class name="testClasses.LoginTest">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:testClasses.LoginTest@11dee337]" started-at="2026-11-07T23:36:45 IST" name="browserSetup" finished-at="2026-11-07T23:36:48 IST" duration-ms="2751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginTest@11dee337]" started-at="2026-11-07T23:36:48 IST" name="urlLaunch" finished-at="2026-11-07T23:36:50 IST" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="validLogin()[pri:1, instance:testClasses.LoginTest@11dee337]" started-at="2026-11-07T23:36:50 IST" name="validLogin" finished-at="2026-11-07T23:36:52 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginTest@11dee337]" started-at="2026-11-07T23:36:52 IST" name="urlLaunch" finished-at="2026-11-07T23:36:52 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="invalidUserName()[pri:2, instance:testClasses.LoginTest@11dee337]" started-at="2026-11-07T23:36:52 IST" name="invalidUserName" finished-at="2026-11-07T23:36:52 IST" duration-ms="304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.LoginTest@11dee337]" started-at="2026-11-07T23:36:52 IST" name="teardown" finished-at="2026-11-07T23:36:53 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testClasses.LoginTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-11-07T23:36:58 IST" name="FirefoxTest" finished-at="2026-11-07T23:37:16 IST" duration-ms="17316">
+      <class name="testClasses.LoginDataDriven">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:testClasses.LoginDataDriven@5aa0dbf4]" started-at="2026-11-07T23:37:07 IST" name="browserSetup" finished-at="2026-11-07T23:37:10 IST" duration-ms="2846" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirefoxBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginDataDriven@5aa0dbf4]" started-at="2026-11-07T23:37:10 IST" name="urlLaunch" finished-at="2026-11-07T23:37:12 IST" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="loginValidation()[pri:0, instance:testClasses.LoginDataDriven@5aa0dbf4]" started-at="2026-11-07T23:37:12 IST" name="loginValidation" finished-at="2026-11-07T23:37:15 IST" duration-ms="3205" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Validation failed at Excel Row: 4 expected [Username or Password cannot be Empty] but found [Your username is invalid!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Validation failed at Excel Row: 4 expected [Username or Password cannot be Empty] but found [Your username is invalid!]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testClasses.LoginDataDriven.loginValidation(LoginDataDriven.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.LoginDataDriven@5aa0dbf4]" started-at="2026-11-07T23:37:15 IST" name="teardown" finished-at="2026-11-07T23:37:16 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testClasses.LoginDataDriven -->
+      <class name="testClasses.LoginTest">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:testClasses.LoginTest@8ab78bc]" started-at="2026-11-07T23:36:58 IST" name="browserSetup" finished-at="2026-11-07T23:37:02 IST" duration-ms="3626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirefoxBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginTest@8ab78bc]" started-at="2026-11-07T23:37:02 IST" name="urlLaunch" finished-at="2026-11-07T23:37:04 IST" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="validLogin()[pri:1, instance:testClasses.LoginTest@8ab78bc]" started-at="2026-11-07T23:37:04 IST" name="validLogin" finished-at="2026-11-07T23:37:05 IST" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginTest@8ab78bc]" started-at="2026-11-07T23:37:05 IST" name="urlLaunch" finished-at="2026-11-07T23:37:06 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="invalidUserName()[pri:2, instance:testClasses.LoginTest@8ab78bc]" started-at="2026-11-07T23:37:06 IST" name="invalidUserName" finished-at="2026-11-07T23:37:06 IST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.LoginTest@8ab78bc]" started-at="2026-11-07T23:37:06 IST" name="teardown" finished-at="2026-11-07T23:37:07 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testClasses.LoginTest -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2026-11-07T23:37:16 IST" name="EdgeTest" finished-at="2026-11-07T23:37:26 IST" duration-ms="10331">
+      <class name="testClasses.LoginDataDriven">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:testClasses.LoginDataDriven@7fe083b1]" started-at="2026-11-07T23:37:21 IST" name="browserSetup" finished-at="2026-11-07T23:37:22 IST" duration-ms="865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EdgeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginDataDriven@7fe083b1]" started-at="2026-11-07T23:37:22 IST" name="urlLaunch" finished-at="2026-11-07T23:37:22 IST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="loginValidation()[pri:0, instance:testClasses.LoginDataDriven@7fe083b1]" started-at="2026-11-07T23:37:22 IST" name="loginValidation" finished-at="2026-11-07T23:37:26 IST" duration-ms="3494" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Validation failed at Excel Row: 4 expected [Username or Password cannot be Empty] but found [Your username is invalid!]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Validation failed at Excel Row: 4 expected [Username or Password cannot be Empty] but found [Your username is invalid!]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testClasses.LoginDataDriven.loginValidation(LoginDataDriven.java:96)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.LoginDataDriven@7fe083b1]" started-at="2026-11-07T23:37:26 IST" name="teardown" finished-at="2026-11-07T23:37:26 IST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testClasses.LoginDataDriven -->
+      <class name="testClasses.LoginTest">
+        <test-method is-config="true" signature="browserSetup(java.lang.String)[pri:0, instance:testClasses.LoginTest@2c5d601e]" started-at="2026-11-07T23:37:16 IST" name="browserSetup" finished-at="2026-11-07T23:37:18 IST" duration-ms="2050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EdgeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginTest@2c5d601e]" started-at="2026-11-07T23:37:18 IST" name="urlLaunch" finished-at="2026-11-07T23:37:18 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="validLogin()[pri:1, instance:testClasses.LoginTest@2c5d601e]" started-at="2026-11-07T23:37:18 IST" name="validLogin" finished-at="2026-11-07T23:37:20 IST" duration-ms="1974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="urlLaunch()[pri:0, instance:testClasses.LoginTest@2c5d601e]" started-at="2026-11-07T23:37:20 IST" name="urlLaunch" finished-at="2026-11-07T23:37:20 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlLaunch -->
+        <test-method signature="invalidUserName()[pri:2, instance:testClasses.LoginTest@2c5d601e]" started-at="2026-11-07T23:37:20 IST" name="invalidUserName" finished-at="2026-11-07T23:37:21 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testClasses.LoginTest@2c5d601e]" started-at="2026-11-07T23:37:21 IST" name="teardown" finished-at="2026-11-07T23:37:21 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testClasses.LoginTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
